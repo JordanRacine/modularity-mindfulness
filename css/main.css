@@ -6,6 +6,29 @@ i {
 font-family: "Noto Sans Japanese", sans-serif;
 }
 
+nav li a{
+  text-decoration: none;
+  border-bottom: 2px solid #d89fb0;
+  color: #b64c6e;
+}
+
+nav li a:hover{
+  color: #860927;
+  border-bottom: 2px solid #860927;
+}
+
+ul {
+  text-align: center;
+}
+
+footer {
+  border-top: 2px solid #e2e2e2;
+  color: #666;
+}
+
 @media only screen and (min-width: 60em) {
 
+ nav ul{
+   text-align: right;
+ }
 }
