@@ -1,20 +1,31 @@
 html {
-    font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 i {
-font-family: "Noto Sans Japanese", sans-serif;
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
-nav li a{
+nav li a {
   text-decoration: none;
   border-bottom: 2px solid #d89fb0;
   color: #b64c6e;
 }
 
-nav li a:hover{
+nav li a:hover {
   color: #860927;
   border-bottom: 2px solid #860927;
+}
+
+.btn-ghost {
+  border-bottom: 2px solid #d89fb0;
+  color: #b64c6e;
+}
+
+.btn:hover {
+  color: #860927;
+  background-color: #d89fb0;
+  border-color: #860927;
 }
 
 ul {
@@ -28,7 +39,15 @@ footer {
 
 @media only screen and (min-width: 60em) {
 
- nav ul{
-   text-align: right;
- }
+  nav ul {
+    text-align: right;
+  }
+
+  .header-right {
+    text-align: right;
+  }
+
+  .header-left {
+    text-align: left;
+  }
 }
