@@ -19,6 +19,7 @@ a:hover {
 
 .btn-ghost {
   color: #b64c6e;
+  border: 2px solid #d89fb0;
 }
 
 .btn:hover {
@@ -27,6 +28,11 @@ a:hover {
 
 ul {
   text-align: center;
+}
+
+footer {
+  border-top: 3px solid #e2e2e2;
+  color: #666;
 }
 
 @media only screen and (min-width: 60em) {
