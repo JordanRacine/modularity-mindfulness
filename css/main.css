@@ -1,10 +1,9 @@
 html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
     font-family: "Noto Sans", sans-serif;
+}
+
+i {
+font-family: "Noto Sans Japanese", sans-serif;
 }
 
 li {
@@ -17,4 +16,8 @@ a:active {
 
 a:hover {
   color: #89c214;
+}
+
+.btn-ghost{
+
 }
